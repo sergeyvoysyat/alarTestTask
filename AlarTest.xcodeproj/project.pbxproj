@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF808FAC1FCA4CA700E54C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF808FAB1FCA4CA700E54C83 /* AppDelegate.m */; };
-		DF808FAF1FCA4CA700E54C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF808FAE1FCA4CA700E54C83 /* ViewController.m */; };
-		DF808FB21FCA4CA700E54C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF808FB01FCA4CA700E54C83 /* Main.storyboard */; };
-		DF808FB41FCA4CA700E54C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF808FB31FCA4CA700E54C83 /* Assets.xcassets */; };
-		DF808FB71FCA4CA700E54C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF808FB51FCA4CA700E54C83 /* LaunchScreen.storyboard */; };
-		DF808FBA1FCA4CA700E54C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF808FB91FCA4CA700E54C83 /* main.m */; };
+		DFA7EAC21FCA4D0C00C3AFDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAC01FCA4D0C00C3AFDC /* AppDelegate.m */; };
+		DFA7EAC61FCA4D1A00C3AFDC /* SVSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAC31FCA4D1900C3AFDC /* SVSignInViewController.m */; };
+		DFA7EAC71FCA4D1A00C3AFDC /* SVSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAC41FCA4D1900C3AFDC /* SVSignInViewController.xib */; };
+		DFA7EACE1FCA4D2900C3AFDC /* SVDataRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAC91FCA4D2500C3AFDC /* SVDataRecordTableViewCell.m */; };
+		DFA7EACF1FCA4D2900C3AFDC /* SVDataRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EACA1FCA4D2500C3AFDC /* SVDataRecordTableViewCell.xib */; };
+		DFA7EAD01FCA4D2900C3AFDC /* SVDataPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EACB1FCA4D2600C3AFDC /* SVDataPageViewController.xib */; };
+		DFA7EAD11FCA4D2900C3AFDC /* SVDataPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EACC1FCA4D2700C3AFDC /* SVDataPageViewController.m */; };
+		DFA7EAD71FCA4D3400C3AFDC /* SVMapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAD41FCA4D3000C3AFDC /* SVMapTableViewCell.m */; };
+		DFA7EAD81FCA4D3400C3AFDC /* SVMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAD51FCA4D3000C3AFDC /* SVMapTableViewCell.xib */; };
+		DFA7EAD91FCA4D3400C3AFDC /* SVMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAD61FCA4D3300C3AFDC /* SVMapViewController.m */; };
+		DFA7EADC1FCA4D3B00C3AFDC /* SVAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EADB1FCA4D3A00C3AFDC /* SVAPIManager.m */; };
+		DFA7EAE11FCA4D4D00C3AFDC /* SVDataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EADD1FCA4D4800C3AFDC /* SVDataPage.m */; };
+		DFA7EAE71FCA4D5100C3AFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAE31FCA4D4E00C3AFDC /* LaunchScreen.storyboard */; };
+		DFA7EAE81FCA4D5100C3AFDC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAE41FCA4D4E00C3AFDC /* Info.plist */; };
+		DFA7EAE91FCA4D5100C3AFDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAE51FCA4D4F00C3AFDC /* main.m */; };
+		DFA7EAEA1FCA4D5100C3AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAE61FCA4D5000C3AFDC /* Assets.xcassets */; };
+		DFA7EAF21FCA4DD000C3AFDC /* SVDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7EAF11FCA4DD000C3AFDC /* SVDataRecord.m */; };
+		DFA7EAF41FCA4E2B00C3AFDC /* Task.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DFA7EAF31FCA4E2A00C3AFDC /* Task.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF808FA71FCA4CA700E54C83 /* AlarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF808FAA1FCA4CA700E54C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF808FAB1FCA4CA700E54C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF808FAD1FCA4CA700E54C83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF808FAE1FCA4CA700E54C83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF808FB11FCA4CA700E54C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF808FB31FCA4CA700E54C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF808FB61FCA4CA700E54C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF808FB81FCA4CA700E54C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF808FB91FCA4CA700E54C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFA7EAC01FCA4D0C00C3AFDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFA7EAC11FCA4D0C00C3AFDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFA7EAC31FCA4D1900C3AFDC /* SVSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSignInViewController.m; sourceTree = "<group>"; };
+		DFA7EAC41FCA4D1900C3AFDC /* SVSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVSignInViewController.xib; sourceTree = "<group>"; };
+		DFA7EAC51FCA4D1900C3AFDC /* SVSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSignInViewController.h; sourceTree = "<group>"; };
+		DFA7EAC81FCA4D2400C3AFDC /* SVDataRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDataRecordTableViewCell.h; sourceTree = "<group>"; };
+		DFA7EAC91FCA4D2500C3AFDC /* SVDataRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDataRecordTableViewCell.m; sourceTree = "<group>"; };
+		DFA7EACA1FCA4D2500C3AFDC /* SVDataRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVDataRecordTableViewCell.xib; sourceTree = "<group>"; };
+		DFA7EACB1FCA4D2600C3AFDC /* SVDataPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVDataPageViewController.xib; sourceTree = "<group>"; };
+		DFA7EACC1FCA4D2700C3AFDC /* SVDataPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDataPageViewController.m; sourceTree = "<group>"; };
+		DFA7EACD1FCA4D2800C3AFDC /* SVDataPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDataPageViewController.h; sourceTree = "<group>"; };
+		DFA7EAD21FCA4D2E00C3AFDC /* SVMapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMapTableViewCell.h; sourceTree = "<group>"; };
+		DFA7EAD31FCA4D2F00C3AFDC /* SVMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMapViewController.h; sourceTree = "<group>"; };
+		DFA7EAD41FCA4D3000C3AFDC /* SVMapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMapTableViewCell.m; sourceTree = "<group>"; };
+		DFA7EAD51FCA4D3000C3AFDC /* SVMapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVMapTableViewCell.xib; sourceTree = "<group>"; };
+		DFA7EAD61FCA4D3300C3AFDC /* SVMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMapViewController.m; sourceTree = "<group>"; };
+		DFA7EADA1FCA4D3A00C3AFDC /* SVAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAPIManager.h; sourceTree = "<group>"; };
+		DFA7EADB1FCA4D3A00C3AFDC /* SVAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAPIManager.m; sourceTree = "<group>"; };
+		DFA7EADD1FCA4D4800C3AFDC /* SVDataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDataPage.m; sourceTree = "<group>"; };
+		DFA7EADE1FCA4D4900C3AFDC /* SVDataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDataPage.h; sourceTree = "<group>"; };
+		DFA7EAE31FCA4D4E00C3AFDC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA7EAE41FCA4D4E00C3AFDC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA7EAE51FCA4D4F00C3AFDC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../AlarTestTask/AlarTestTask/main.m; sourceTree = "<group>"; };
+		DFA7EAE61FCA4D5000C3AFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA7EAF01FCA4DD000C3AFDC /* SVDataRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDataRecord.h; sourceTree = "<group>"; };
+		DFA7EAF11FCA4DD000C3AFDC /* SVDataRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDataRecord.m; sourceTree = "<group>"; };
+		DFA7EAF31FCA4E2A00C3AFDC /* Task.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Task.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +88,83 @@
 		DF808FA91FCA4CA700E54C83 /* AlarTest */ = {
 			isa = PBXGroup;
 			children = (
-				DF808FAA1FCA4CA700E54C83 /* AppDelegate.h */,
-				DF808FAB1FCA4CA700E54C83 /* AppDelegate.m */,
-				DF808FAD1FCA4CA700E54C83 /* ViewController.h */,
-				DF808FAE1FCA4CA700E54C83 /* ViewController.m */,
-				DF808FB01FCA4CA700E54C83 /* Main.storyboard */,
-				DF808FB31FCA4CA700E54C83 /* Assets.xcassets */,
-				DF808FB51FCA4CA700E54C83 /* LaunchScreen.storyboard */,
-				DF808FB81FCA4CA700E54C83 /* Info.plist */,
-				DF808FB91FCA4CA700E54C83 /* main.m */,
+				DFA7EAF51FCA4E3200C3AFDC /* Read me */,
+				DFA7EAC11FCA4D0C00C3AFDC /* AppDelegate.h */,
+				DFA7EAC01FCA4D0C00C3AFDC /* AppDelegate.m */,
+				DFA7EAEB1FCA4D6500C3AFDC /* Sign in screen */,
+				DFA7EAEC1FCA4D7700C3AFDC /* Data page screen */,
+				DFA7EAED1FCA4D9300C3AFDC /* Map table screen */,
+				DFA7EAEE1FCA4DAC00C3AFDC /* API manager */,
+				DFA7EAEF1FCA4DB900C3AFDC /* Data */,
+				DFA7EAE61FCA4D5000C3AFDC /* Assets.xcassets */,
+				DFA7EAE41FCA4D4E00C3AFDC /* Info.plist */,
+				DFA7EAE31FCA4D4E00C3AFDC /* LaunchScreen.storyboard */,
+				DFA7EAE51FCA4D4F00C3AFDC /* main.m */,
 			);
 			path = AlarTest;
+			sourceTree = "<group>";
+		};
+		DFA7EAEB1FCA4D6500C3AFDC /* Sign in screen */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EAC51FCA4D1900C3AFDC /* SVSignInViewController.h */,
+				DFA7EAC31FCA4D1900C3AFDC /* SVSignInViewController.m */,
+				DFA7EAC41FCA4D1900C3AFDC /* SVSignInViewController.xib */,
+			);
+			path = "Sign in screen";
+			sourceTree = "<group>";
+		};
+		DFA7EAEC1FCA4D7700C3AFDC /* Data page screen */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EACD1FCA4D2800C3AFDC /* SVDataPageViewController.h */,
+				DFA7EACC1FCA4D2700C3AFDC /* SVDataPageViewController.m */,
+				DFA7EACB1FCA4D2600C3AFDC /* SVDataPageViewController.xib */,
+				DFA7EAC81FCA4D2400C3AFDC /* SVDataRecordTableViewCell.h */,
+				DFA7EAC91FCA4D2500C3AFDC /* SVDataRecordTableViewCell.m */,
+				DFA7EACA1FCA4D2500C3AFDC /* SVDataRecordTableViewCell.xib */,
+			);
+			path = "Data page screen";
+			sourceTree = "<group>";
+		};
+		DFA7EAED1FCA4D9300C3AFDC /* Map table screen */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EAD31FCA4D2F00C3AFDC /* SVMapViewController.h */,
+				DFA7EAD61FCA4D3300C3AFDC /* SVMapViewController.m */,
+				DFA7EAD21FCA4D2E00C3AFDC /* SVMapTableViewCell.h */,
+				DFA7EAD41FCA4D3000C3AFDC /* SVMapTableViewCell.m */,
+				DFA7EAD51FCA4D3000C3AFDC /* SVMapTableViewCell.xib */,
+			);
+			path = "Map table screen";
+			sourceTree = "<group>";
+		};
+		DFA7EAEE1FCA4DAC00C3AFDC /* API manager */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EADA1FCA4D3A00C3AFDC /* SVAPIManager.h */,
+				DFA7EADB1FCA4D3A00C3AFDC /* SVAPIManager.m */,
+			);
+			path = "API manager";
+			sourceTree = "<group>";
+		};
+		DFA7EAEF1FCA4DB900C3AFDC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EADE1FCA4D4900C3AFDC /* SVDataPage.h */,
+				DFA7EADD1FCA4D4800C3AFDC /* SVDataPage.m */,
+				DFA7EAF01FCA4DD000C3AFDC /* SVDataRecord.h */,
+				DFA7EAF11FCA4DD000C3AFDC /* SVDataRecord.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DFA7EAF51FCA4E3200C3AFDC /* Read me */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7EAF31FCA4E2A00C3AFDC /* Task.rtf */,
+			);
+			path = "Read me";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF808FB71FCA4CA700E54C83 /* LaunchScreen.storyboard in Resources */,
-				DF808FB41FCA4CA700E54C83 /* Assets.xcassets in Resources */,
-				DF808FB21FCA4CA700E54C83 /* Main.storyboard in Resources */,
+				DFA7EAD01FCA4D2900C3AFDC /* SVDataPageViewController.xib in Resources */,
+				DFA7EAD81FCA4D3400C3AFDC /* SVMapTableViewCell.xib in Resources */,
+				DFA7EAE81FCA4D5100C3AFDC /* Info.plist in Resources */,
+				DFA7EAC71FCA4D1A00C3AFDC /* SVSignInViewController.xib in Resources */,
+				DFA7EAEA1FCA4D5100C3AFDC /* Assets.xcassets in Resources */,
+				DFA7EAF41FCA4E2B00C3AFDC /* Task.rtf in Resources */,
+				DFA7EAE71FCA4D5100C3AFDC /* LaunchScreen.storyboard in Resources */,
+				DFA7EACF1FCA4D2900C3AFDC /* SVDataRecordTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,32 +243,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF808FAF1FCA4CA700E54C83 /* ViewController.m in Sources */,
-				DF808FBA1FCA4CA700E54C83 /* main.m in Sources */,
-				DF808FAC1FCA4CA700E54C83 /* AppDelegate.m in Sources */,
+				DFA7EAE91FCA4D5100C3AFDC /* main.m in Sources */,
+				DFA7EAD71FCA4D3400C3AFDC /* SVMapTableViewCell.m in Sources */,
+				DFA7EAD11FCA4D2900C3AFDC /* SVDataPageViewController.m in Sources */,
+				DFA7EADC1FCA4D3B00C3AFDC /* SVAPIManager.m in Sources */,
+				DFA7EAF21FCA4DD000C3AFDC /* SVDataRecord.m in Sources */,
+				DFA7EAC21FCA4D0C00C3AFDC /* AppDelegate.m in Sources */,
+				DFA7EAC61FCA4D1A00C3AFDC /* SVSignInViewController.m in Sources */,
+				DFA7EAD91FCA4D3400C3AFDC /* SVMapViewController.m in Sources */,
+				DFA7EACE1FCA4D2900C3AFDC /* SVDataRecordTableViewCell.m in Sources */,
+				DFA7EAE11FCA4D4D00C3AFDC /* SVDataPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DF808FB01FCA4CA700E54C83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF808FB11FCA4CA700E54C83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF808FB51FCA4CA700E54C83 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF808FB61FCA4CA700E54C83 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DF808FBB1FCA4CA700E54C83 /* Debug */ = {
@@ -218,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

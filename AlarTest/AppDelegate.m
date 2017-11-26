@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  AlarTest
+//  AlarTestTask
 //
-//  Created by Dead Inside on 26/11/2017.
+//  Created by Dead Inside on 24/11/2017.
 //  Copyright © 2017 Sergey Voysyat. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SVSignInViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    SVSignInViewController *vc = [[SVSignInViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SVSignInViewController.h
 //  AlarTestTask
 //
 //  Created by Dead Inside on 24/11/2017.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SVSignInViewController : UIViewController
 
 @end
-
