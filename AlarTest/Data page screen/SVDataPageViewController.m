@@ -20,8 +20,6 @@
 @property (nonatomic) UIImage *locationIcon;
 
 @property (nonatomic) NSMutableArray *pages;
-@property (nonatomic) BOOL canRequestNextPage;
-@property (nonatomic) NSTimer *nextPageLoadingTimer;
 
 @property (nonatomic) SVAPIManager *APIManager;
 
@@ -35,7 +33,6 @@ static NSString * const kCellReuseIdentifier = @"SVDataRecordTableViewCell";
     [super viewDidLoad];
     
     self.pages = [NSMutableArray array];
-    self.canRequestNextPage = YES;
     
     self.APIManager = [SVAPIManager defaultManager];
     self.APIManager.delegate = self;
@@ -51,18 +48,15 @@ static NSString * const kCellReuseIdentifier = @"SVDataRecordTableViewCell";
 }
 
 - (void)requestNextPage {
-    self.canRequestNextPage = NO;
     [self.APIManager requestNextPage];
 }
 
 #pragma mark - API manager delegate
 
 - (void)didGetRequestedPage:(SVDataPage *)page {
-    self.canRequestNextPage = YES;
     [self.pages addObject:page];
     
     dispatch_async(dispatch_get_main_queue(), ^{
-//#warning неэффективно:
         [self.tableView reloadData];
     });
 }

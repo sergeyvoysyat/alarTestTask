@@ -15,7 +15,6 @@
 @property (nonatomic) NSURLSession *session;
 
 @property (nonatomic) NSURLSessionDataTask *signInTask;
-@property (nonatomic) NSMutableArray <NSURLSessionDataTask *> *taskQueue;
 
 @property (nonatomic) NSString *userCode;
 
@@ -48,7 +47,6 @@
 {
     self = [super init];
     if (self) {
-        self.taskQueue = [NSMutableArray array];
         self.isDelegateWaitForPage = NO;
         self.isNewPageAvailable = NO;
         self.isPreparingNewPage = YES;
@@ -142,6 +140,7 @@
         [self fetchDataWithUserCode:self.userCode pageIndex:self.nextLoadPageIndex];
     }
 }
+
 #pragma mark - Data Task delegate
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data {
@@ -209,17 +208,6 @@
         #ifdef DEBUG
         NSLog(@"SVAPIManager.URLSession:task:didCompleteWithError: -> Error: %@", error.localizedDescription);
         #endif
-    }
-    
-    //
-    NSLog(@"did complete task");
-    
-    if ([task isKindOfClass:[NSURLSessionDataTask class]]) {
-        NSURLSessionDataTask *dataTask = (NSURLSessionDataTask *)task;
-        if (![dataTask isEqual:self.signInTask] && error) {
-            self.isPreparingNewPage = NO;
-            self.isNewPageAvailable = NO;
-        }
     }
 }
 
